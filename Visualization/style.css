@@ -1,0 +1,24 @@
+html, body, #map, #canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#inputdiv {
+  position: absolute;
+  left: 2px;
+  display: inline-block;
+  bottom: 2px;
+}
+
+#time_scroll {
+  position: absolute;
+  bottom: 2px;
+}
+
+#hour {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+}

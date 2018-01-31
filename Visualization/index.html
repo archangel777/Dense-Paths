@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Trajetories density</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="initMap();">
+    <div id="map"></div>
+    <div id="hour"></div>
+    <div id="inputdiv">
+      <form>
+        <input id="fileinput" type="file"/>
+      </form>
+    </div>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP2zg5JureFcdvfHL_thKCoPfsJLzbW0w&callback=initMap" async defer></script>
+    <script src="density.js"></script>
+  </body>
+</html>
